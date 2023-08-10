@@ -1,12 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - Entry poin
+ * main -Entry point
  *
- * Retun: Alyaws 0 (Success)
+ * Return: Always 0 (Success)
+ * Description: it prints a string
+ *
  */
 
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
