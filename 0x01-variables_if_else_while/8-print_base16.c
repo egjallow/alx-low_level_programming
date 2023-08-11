@@ -8,21 +8,20 @@
  */
 int main(void)
 {
-        int a, n;
+	int a, n;
 
-        a = 97;
-        n = 48;
-        while (n <= 57)
-        {
-          putchar(n);
-          n ++;
-        }
-        while (a <= 102)
-        {
-                putchar(a);
-                a++;
-        }
-        putchar(10);
-        return (0);
+	a = 97;
+	n = 48;
+	while (n <= 57)
+	{
+		putchar(n);
+		n++;
+	}
+	while (a <= 102)
+	{
+		putchar(a);
+		a++;
+	}
+	putchar(10);
+	return (0);
 }
-
