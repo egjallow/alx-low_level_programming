@@ -13,8 +13,10 @@ int main(void)
 	while (alpa <= 'z')
 	{
 		if (alpa != 'e' || alpa != 'q')
+		{
 			putchar(alpa);
 			alpa++;
+		}
 	}
 	putchar(10);
 	return (0);
