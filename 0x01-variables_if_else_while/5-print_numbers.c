@@ -3,26 +3,18 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Description: Prints alphabets(a-zA-Z)
+ * Description: Prints numbers
  * Return: 0
  */
 int main(void)
 {
-	int a,c;
+	int a;
 
 	a = 97;
 	while (a <= 122)
 	{
 		putchar(a);
 		a++;
-	}
-
-        c = 65;
-
-	while (c <= 90)
-	{
-		putchar(c);
-		c++;
 	}
 	putchar(10);
 	return (0);
