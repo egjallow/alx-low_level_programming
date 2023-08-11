@@ -10,8 +10,8 @@ int main(void)
 {
 	int a;
 
-	a = 97;
-	while (a <= 122)
+	a = 49;
+	while (a <= 57)
 	{
 		putchar(a);
 		a++;
