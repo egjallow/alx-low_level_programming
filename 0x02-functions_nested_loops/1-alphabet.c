@@ -2,9 +2,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
- * Return: Always return (0)
- * Description:It prints alphabet a-z
+ * print_alphabet - prints alphabet a-z
+ * _putchar - writes the character c to stdout
+ *
+ * Return: On success 1.
  */
 void print_alphabet(void)
 {
