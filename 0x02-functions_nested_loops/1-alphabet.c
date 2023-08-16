@@ -6,7 +6,7 @@
  * Return: Always return (0)
  * Description:It prints alphabet a-z
  */
-int main(void)
+void print_alphabet(void)
 {
 	char c[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
@@ -18,5 +18,4 @@ int main(void)
 		i++;
 	}
 	_putchar('\n');
-	return (0);
 }
