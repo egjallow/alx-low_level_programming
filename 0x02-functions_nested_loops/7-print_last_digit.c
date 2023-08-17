@@ -1,0 +1,20 @@
+#include <unistd.h>
+#include <stdio.h>
+#include "main.h"
+/**
+ * print_last_digit - Returns a valve of the last
+ * @n: take in int as agr
+ * _putchar - writes the character c to stdout
+ *
+ * Return: On success 1.
+ */
+int print_last_digit(int n)
+{
+	int last_digit;
+
+	last_digit = n % 10;
+	if (last_digit < 0)
+		last_digit *= -1;
+	_putchar(last_digit + '0');
+	return (last_digit);
+}
