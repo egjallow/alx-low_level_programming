@@ -5,7 +5,7 @@
  * add - Add two integers numbers
  * @x: take int
  * @y: takes int
- * Return : the combination of x and y
+ * Return: the combination of x and y int
  */
 int add(int x, int y)
 {
