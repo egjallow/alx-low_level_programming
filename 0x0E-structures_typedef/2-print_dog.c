@@ -1,7 +1,7 @@
 #include "dog.h"
 
 /**
- * struct print_dog - print a dog
+ * print_dog - print a dog
  * @d: The memory address of dog
  *
  * Description: Longer description
