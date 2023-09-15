@@ -1,8 +1,8 @@
 #include "variadic_functions.h"
 /**
- * sum_them_all - sum them all
- * @n, takes in int
- * Returns the sum of thr list
+ * sum_them_all - sum them all the numbers
+ * @n: takes in int
+ * Return: the sum of thr list
  */
 int sum_them_all(const unsigned int n, ...)
 {
