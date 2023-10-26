@@ -18,7 +18,7 @@ int is_prime_number(int n)
 }
 
 /**
- * check_prime - checks if prime
+ * is_prime - checks if prime
  *
  * @a: divisibility
  * @b: multiple of a
